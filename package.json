@@ -4,7 +4,7 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "seed": "node -r dotenv/config ./scripts/seed.js",
+    "init": "node -r dotenv/config scripts/init-database.js",
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
     "lint": "next lint"
